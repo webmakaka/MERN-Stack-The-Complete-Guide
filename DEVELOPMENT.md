@@ -29,6 +29,16 @@ http://localhost:3000/account
 ![Application](./img/pic-02-01.png?raw=true)
 
 
+<br/>
+
+### 3. Create App Layout, Build Header
+
+
+https://react.semantic-ui.com/
+
+<br/>
+
+![Application](./img/pic-02-02.png?raw=true)
 
 ---
 
