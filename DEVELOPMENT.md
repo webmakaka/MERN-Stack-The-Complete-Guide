@@ -49,6 +49,11 @@ https://react.semantic-ui.com/
 
 ![Application](./img/pic-02-03.png?raw=true)
 
+
+<br/>
+
+### 5. Visualize Route Changes with Progress Bar
+
 ---
 
 **Marley**
