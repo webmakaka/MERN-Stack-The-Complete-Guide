@@ -1,11 +1,33 @@
 # [Reed Barger] MERN Stack - The Complete Guide [ENG, 2020]
 
 <br/>
+<br/>
 
-### [Development](./DEVELOPMENT.md)
+## 2. Working with React + Next.js
 
 <br/>
+
+    $ nvm use  v10.19.0
+
 <br/>
+
+    $ npm install
+    $ npm run dev
+
+<br/>
+
+http://localhost:3000/
+
+http://localhost:3000/account
+
+<br/>
+
+![Application](./img/pic-02-01.png?raw=true)
+
+
+<br/>
+
+### 3. Create App Layout, Build Header
 
 ---
 
