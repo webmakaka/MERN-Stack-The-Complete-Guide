@@ -40,6 +40,15 @@ https://react.semantic-ui.com/
 
 ![Application](./img/pic-02-02.png?raw=true)
 
+
+<br/>
+
+### 4. Get Route Data from useRouter Hook, Create Active Links
+
+<br/>
+
+![Application](./img/pic-02-03.png?raw=true)
+
 ---
 
 **Marley**
