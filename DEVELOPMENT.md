@@ -54,6 +54,19 @@ https://react.semantic-ui.com/
 
 ### 5. Visualize Route Changes with Progress Bar
 
+
+<br/>
+
+## 3. Creating API with Node + Express
+
+<br/>
+
+### 1. Intro to Node + Express with API Routes
+
+<br/>
+
+![Application](./img/pic-03-01.png?raw=true)
+
 ---
 
 **Marley**
