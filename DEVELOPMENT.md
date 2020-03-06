@@ -67,6 +67,11 @@ https://react.semantic-ui.com/
 
 ![Application](./img/pic-03-01.png?raw=true)
 
+
+<br/>
+
+### 2. Fetching Data on the Server with getInitialProps
+
 ---
 
 **Marley**
