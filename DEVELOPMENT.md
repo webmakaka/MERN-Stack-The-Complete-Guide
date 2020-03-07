@@ -72,6 +72,14 @@ https://react.semantic-ui.com/
 
 ### 2. Fetching Data on the Server with getInitialProps
 
+<br/>
+
+## 4. Using MongoDB with Atlas
+
+<br/>
+
+### 1. Configure Mongo Atlas, Connect to Database
+
 ---
 
 **Marley**
