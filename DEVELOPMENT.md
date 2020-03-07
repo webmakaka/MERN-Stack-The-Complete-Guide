@@ -80,6 +80,42 @@ https://react.semantic-ui.com/
 
 ### 1. Configure Mongo Atlas, Connect to Database
 
+<br/>
+
+### 2. Create Products Collection, Model Product Data
+
+cloud.mongodb.com --> Clusters --> "YOUR_CLUSTER_NAME" --> Command Line Tools --> Data Import and Export Tools
+
+<br/>
+
+
+**Ubuntu 18.04 (Bionic)**
+
+https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
+
+    $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+
+    $ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+
+    $ sudo apt-get update
+
+    $ sudo apt-get install -y mongodb-org-tools
+
+    $ mongoimport --version
+    mongoimport version: r4.2.3
+
+<br/>
+
+    $ cd ${PROJECT_ROOT}
+
+    $ mongoimport --host MERN-Stack-The-Complete-Guide-shard-0/mern-stack-the-complete-guide-shard-00-00-vksgu.mongodb.net:27017,mern-stack-the-complete-guide-shard-00-01-vksgu.mongodb.net:27017,mern-stack-the-complete-guide-shard-00-02-vksgu.mongodb.net:27017 --ssl --username admin --password admin --authenticationDatabase admin --collection products --type json --file ./app/static/products.json --jsonArray
+
+20 document(s) imported successfully.    
+
+<br/>
+
+
+
 ---
 
 **Marley**
