@@ -135,6 +135,14 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 ![Application](./img/pic-05-01.png?raw=true)
 
+<br/>
+
+### 2. Style Product Detail Page
+
+<br/>
+
+![Application](./img/pic-05-02.png?raw=true)
+
 ---
 
 **Marley**
