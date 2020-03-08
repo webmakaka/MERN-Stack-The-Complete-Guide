@@ -11,6 +11,8 @@
 
 <br/>
 
+    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.2/install.sh | bash
+    $ nvm install v10.19.0
     $ nvm use  v10.19.0
 
 <br/>
@@ -88,7 +90,6 @@ cloud.mongodb.com --> Clusters --> "YOUR_CLUSTER_NAME" --> Command Line Tools --
 
 <br/>
 
-
 **Ubuntu 18.04 (Bionic)**
 
 https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
@@ -112,7 +113,6 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 20 document(s) imported successfully.    
 
-<br/>
 
 <br/>
 
@@ -121,6 +121,19 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 <br/>
 
 ![Application](./img/pic-04-01.png?raw=true)
+
+
+<br/>
+
+## 5. Fetching App Data from API
+
+<br/>
+
+### 1. Get Product By Id
+
+<br/>
+
+![Application](./img/pic-05-01.png?raw=true)
 
 ---
 
