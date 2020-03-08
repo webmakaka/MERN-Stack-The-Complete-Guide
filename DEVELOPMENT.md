@@ -114,7 +114,13 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
+<br/>
 
+### 3. Build Product Cards, Make Components Responsive
+
+<br/>
+
+![Application](./img/pic-04-01.png?raw=true)
 
 ---
 
