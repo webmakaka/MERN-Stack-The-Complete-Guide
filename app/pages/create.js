@@ -1,5 +1,7 @@
 import React from 'react';
 import { Form, Input, TextArea, Button, Image, Message, Header, Icon } from 'semantic-ui-react';
+import axios from 'axios';
+import baseUrl from '../utils/baseUrl';
 
 function CreateProduct() {
 
@@ -13,6 +15,7 @@ function CreateProduct() {
   const [product, setProduct] = React.useState(INITIAL_PRODUCT);
   const [mediaPreview, setMediaPreview] = React.useState('');
   const [success, setSuccess] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
 
   function handleChange(event) {
     const {name, value, files } = event.target;
@@ -24,21 +27,38 @@ function CreateProduct() {
     }
   }
 
-  function handleSumbit(event) {
+  async function handleImageUpload() {
+    const data = new FormData();
+    data.append('file', product.media);
+    data.append('upload_preset', 'reactreserve');
+    data.append('cloud_name', 'marley');
+    const response = await axios.post(process.env.CLOUDINARY_URL, data);
+    const mediaUrl = response.data.url;
+    return mediaUrl;
+  }
+
+  async function handleSumbit(event) {
     event.preventDefault();
-    console.log(product);
+    setLoading(true);
+    const mediaUrl = await handleImageUpload();
+    console.log({ mediaUrl });
+    const url = `${baseUrl}/api/product`;
+    const { name, price, description }  = product;
+    const payload = {name, price, description, mediaUrl};
+    const response = await axios.post(url, payload);
+    setLoading(false);
+    console.log(response);
     setProduct(INITIAL_PRODUCT);
     setSuccess(true);
   }
 
   return (
     <>
-      <Header as="H2" block>
-
+      <Header as="h2" block>
         <Icon name="add" color="orange" />
         Create New Product
       </Header>
-      <Form success={success} onSubmit={handleSumbit} >
+      <Form  loading={loading} success={success} onSubmit={handleSumbit} >
         <Message
           success
           icon="check"
@@ -86,6 +106,7 @@ function CreateProduct() {
         />
         <Form.Field
           control={Button}
+          disabled={loading}
           color="blue"
           icon="pencil alternate"
           content="Submit"

@@ -167,6 +167,30 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 ![Application](./img/pic-06-02.png?raw=true)
 
+<br/>
+
+### 3. Upload Product Image, Post Product
+
+https://cloudinary.com/
+
+Settings --> Upload --> Add upload preset
+
+Upload preset name --> reactreserve
+
+Signing Mode --> Unsighed
+
+
+Upload Manipulations --> Incoming Transformation 
+
+900 900 Scale
+
+
+<br/>
+
+![Application](./img/pic-06-03.png?raw=true)
+
+Bed has been added!
+
 ---
 
 **Marley**
