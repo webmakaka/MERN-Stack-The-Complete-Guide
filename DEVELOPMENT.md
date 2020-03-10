@@ -147,6 +147,17 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 ### 3. Base Url Helper
 
+<br/>
+
+## 6. Adding CRUD Functionality, Uploading Image Files
+
+<br/>
+
+### 1. Delete Product
+
+<br/>
+
+![Application](./img/pic-06-01.png?raw=true)
 
 ---
 
