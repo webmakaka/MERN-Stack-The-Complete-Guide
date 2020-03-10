@@ -159,6 +159,14 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 ![Application](./img/pic-06-01.png?raw=true)
 
+<br/>
+
+### 2. Create Product Form
+
+<br/>
+
+![Application](./img/pic-06-02.png?raw=true)
+
 ---
 
 **Marley**
