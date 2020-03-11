@@ -191,6 +191,19 @@ Upload Manipulations --> Incoming Transformation
 
 Bed has been added!
 
+
+<br/>
+
+## 7. Handling Errors on the Client + Server
+
+<br/>
+
+### 1. Prevent, Catch Errors on Client, Server
+
+<br/>
+
+![Application](./img/pic-07-01.png?raw=true)
+
 ---
 
 **Marley**
