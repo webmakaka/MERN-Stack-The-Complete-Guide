@@ -204,6 +204,15 @@ Bed has been added!
 
 ![Application](./img/pic-07-01.png?raw=true)
 
+
+<br/>
+
+### 2. Structure Cart Page
+
+<br/>
+
+![Application](./img/pic-07-02.png?raw=true)
+
 ---
 
 **Marley**
