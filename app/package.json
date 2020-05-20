@@ -20,7 +20,7 @@
     "next": "^9.0.2",
     "nookies": "^2.0.8",
     "nprogress": "^0.2.0",
-    "react": "^16.8.6",
+    "react": "^16.13.1",
     "react-dom": "^16.8.6",
     "react-stripe-checkout": "^2.6.3",
     "semantic-ui-react": "^0.87.3",
