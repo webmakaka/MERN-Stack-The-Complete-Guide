@@ -1,7 +1,6 @@
 import { Header, Segment, Button, Icon } from 'semantic-ui-react';
 
 function CartItemList() {
-
   const user = false;
 
   return (
@@ -13,13 +12,9 @@ function CartItemList() {
 
       <div>
         {user ? (
-          <Button color="orange">
-            View Product
-          </Button>
+          <Button color="orange">View Product</Button>
         ) : (
-          <Button color="blue">
-          Login to Add Products
-        </Button>
+          <Button color="blue">Login to Add Products</Button>
         )}
       </div>
     </Segment>

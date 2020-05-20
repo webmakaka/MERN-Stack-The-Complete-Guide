@@ -2,7 +2,7 @@ import { Item, Label } from 'semantic-ui-react';
 import AddProductToCart from './AddProductToCart';
 
 function ProductSummary({ name, mediaUrl, _id, price, sku }) {
-  return  (
+  return (
     <Item.Group>
       <Item>
         <Item.Image size="medium" src={mediaUrl} />

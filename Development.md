@@ -213,11 +213,22 @@ Bed has been added!
 
 ![Application](./img/pic-07-02.png?raw=true)
 
+
+<br/>
+
+## 8. Authenticating Users with JWT + Cookies
+
+<br/>
+
+### 1. Build Login, Signup Forms
+
+<br/>
+
 ---
+
+<br/>
 
 **Marley**
 
-<a href="https://jsdev.org">jsdev.org</a>
-
-Any questions on eng: <a href="https://jsdev.org/chat/">Telegram or Slack</a>  
-Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Telegram or Slack</a>
+Any questions on eng: https://jsdev.org/chat/  
+Любые вопросы на русском: https://jsdev.ru/chat/

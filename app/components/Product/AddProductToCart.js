@@ -2,17 +2,18 @@ import { Input } from 'semantic-ui-react';
 
 function AddProductToCart() {
   return (
-    <Input 
-        type="number"
-        min="1"
-        palceholder="Quantity"
-        value="1"
-        action={{ 
-          color: "orange",
-          content: "Add to Cart",
-          icon: "plus cart"
-        }}
-    />);
+    <Input
+      type="number"
+      min="1"
+      palceholder="Quantity"
+      value="1"
+      action={{
+        color: 'orange',
+        content: 'Add to Cart',
+        icon: 'plus cart',
+      }}
+    />
+  );
 }
 
 export default AddProductToCart;
