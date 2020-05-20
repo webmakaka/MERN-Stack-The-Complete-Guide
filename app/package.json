@@ -23,7 +23,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-stripe-checkout": "^2.6.3",
-    "semantic-ui-react": "^0.87.3",
+    "semantic-ui-react": "^0.88.2",
     "shortid": "^2.2.14",
     "stripe": "^7.5.0",
     "uuid": "^3.3.2",
