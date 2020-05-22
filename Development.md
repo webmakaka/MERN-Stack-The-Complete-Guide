@@ -227,6 +227,18 @@ Bed has been added!
 
 <br/>
 
+### 03. Validate Post Content on Server
+
+<br/>
+
+![Application](./img/pic-08-04.png?raw=true)
+
+<br/>
+
+### 04. Add Login Functionality
+
+<br/>
+
 ---
 
 <br/>
