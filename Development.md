@@ -247,6 +247,14 @@ Bed has been added!
 
 <br/>
 
+## 09. Authorization and Protecting Content
+
+<br/>
+
+### 01. Get Current User from Token, Protect Auth Routes
+
+<br/>
+
 ---
 
 <br/>
