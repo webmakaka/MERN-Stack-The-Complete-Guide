@@ -239,6 +239,14 @@ Bed has been added!
 
 <br/>
 
+### 05. Create User Cart Upon Signup
+
+<br/>
+
+![Application](./img/pic-08-05.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
