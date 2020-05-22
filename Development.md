@@ -255,6 +255,10 @@ Bed has been added!
 
 <br/>
 
+### 02. Handle Invalid Auth Tokens
+
+<br/>
+
 ---
 
 <br/>
