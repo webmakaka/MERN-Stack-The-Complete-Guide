@@ -219,6 +219,14 @@ Bed has been added!
 
 <br/>
 
+### 02. Model User, Signup User with JWT + Cookies
+
+<br/>
+
+![Application](./img/pic-08-03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
