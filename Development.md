@@ -30,18 +30,15 @@ http://localhost:3000/account
 
 ![Application](./img/pic-02-01.png?raw=true)
 
-
 <br/>
 
 ### 3. Create App Layout, Build Header
-
 
 https://react.semantic-ui.com/
 
 <br/>
 
 ![Application](./img/pic-02-02.png?raw=true)
-
 
 <br/>
 
@@ -51,11 +48,9 @@ https://react.semantic-ui.com/
 
 ![Application](./img/pic-02-03.png?raw=true)
 
-
 <br/>
 
 ### 5. Visualize Route Changes with Progress Bar
-
 
 <br/>
 
@@ -68,7 +63,6 @@ https://react.semantic-ui.com/
 <br/>
 
 ![Application](./img/pic-03-01.png?raw=true)
-
 
 <br/>
 
@@ -111,8 +105,7 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
     $ mongoimport --host MERN-Stack-The-Complete-Guide-shard-0/mern-stack-the-complete-guide-shard-00-00-vksgu.mongodb.net:27017,mern-stack-the-complete-guide-shard-00-01-vksgu.mongodb.net:27017,mern-stack-the-complete-guide-shard-00-02-vksgu.mongodb.net:27017 --ssl --username admin --password admin --authenticationDatabase admin --collection products --type json --file ./app/static/products.json --jsonArray
 
-20 document(s) imported successfully.    
-
+20 document(s) imported successfully.
 
 <br/>
 
@@ -121,7 +114,6 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 <br/>
 
 ![Application](./img/pic-04-01.png?raw=true)
-
 
 <br/>
 
@@ -179,18 +171,15 @@ Upload preset name --> reactreserve
 
 Signing Mode --> Unsighed
 
-
-Upload Manipulations --> Incoming Transformation 
+Upload Manipulations --> Incoming Transformation
 
 900 900 Scale
-
 
 <br/>
 
 ![Application](./img/pic-06-03.png?raw=true)
 
 Bed has been added!
-
 
 <br/>
 
@@ -204,7 +193,6 @@ Bed has been added!
 
 ![Application](./img/pic-07-01.png?raw=true)
 
-
 <br/>
 
 ### 2. Structure Cart Page
@@ -213,14 +201,21 @@ Bed has been added!
 
 ![Application](./img/pic-07-02.png?raw=true)
 
+<br/>
+
+## 08. Authenticating Users with JWT + Cookies
 
 <br/>
 
-## 8. Authenticating Users with JWT + Cookies
+### 01. Build Login, Signup Forms
 
 <br/>
 
-### 1. Build Login, Signup Forms
+![Application](./img/pic-08-01.png?raw=true)
+
+<br/>
+
+![Application](./img/pic-08-02.png?raw=true)
 
 <br/>
 
