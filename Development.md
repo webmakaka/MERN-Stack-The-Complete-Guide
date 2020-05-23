@@ -263,6 +263,10 @@ Bed has been added!
 
 <br/>
 
+### 04. Universal Logout using LocalStorage
+
+<br/>
+
 ---
 
 <br/>
