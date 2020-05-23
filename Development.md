@@ -259,6 +259,10 @@ Bed has been added!
 
 <br/>
 
+### 03. Logout User, Protect Admin Routes, Hide Protected Content
+
+<br/>
+
 ---
 
 <br/>
