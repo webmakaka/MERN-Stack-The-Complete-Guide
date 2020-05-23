@@ -23,9 +23,9 @@ Cart.getInitialProps = async (ctx) => {
   }
 
   const url = `${baseUrl}/api/cart`;
-  const payload = { headers: { Autorization: token } };
+  const payload = { headers: { Authorization: token } };
   const response = await axios.get(url, payload);
-  console.log(response.data);
+  // console.log(response.data);
   return { products: response.data };
 };
 

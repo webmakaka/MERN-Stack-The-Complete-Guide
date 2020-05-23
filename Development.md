@@ -275,6 +275,18 @@ Bed has been added!
 
 <br/>
 
+### 02. Add Products to Cart
+
+<br/>
+
+![Application](./img/pic-08-06.png?raw=true)
+
+<br/>
+
+![Application](./img/pic-08-07.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
