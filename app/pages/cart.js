@@ -1,8 +1,12 @@
 import { Segment } from 'semantic-ui-react';
+import { parseCookies } from 'nookies';
+import axios from 'axios';
 import CartItemList from '../components/Cart/CartItemList';
 import CartSummary from '../components/Cart/CartSummary';
+import baseUrl from '../utils/baseUrl';
 
-function Cart() {
+function Cart({ products }) {
+  console.log(products);
   return (
     <Segment>
       <CartItemList />
@@ -10,5 +14,19 @@ function Cart() {
     </Segment>
   );
 }
+
+Cart.getInitialProps = async (ctx) => {
+  const { token } = parseCookies(ctx);
+
+  if (!token) {
+    return { products: [] };
+  }
+
+  const url = `${baseUrl}/api/cart`;
+  const payload = { headers: { Autorization: token } };
+  const response = await axios.get(url, payload);
+  console.log(response.data);
+  return { products: response.data };
+};
 
 export default Cart;

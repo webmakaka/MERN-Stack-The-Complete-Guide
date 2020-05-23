@@ -3,11 +3,11 @@
 <br/>
 <br/>
 
-## 2. Working with React + Next.js
+## 02. Working with React + Next.js
 
 <br/>
 
-### 2. Intro to Next.js, Project Structure
+### 02. Intro to Next.js, Project Structure
 
 <br/>
 
@@ -32,7 +32,7 @@ http://localhost:3000/account
 
 <br/>
 
-### 3. Create App Layout, Build Header
+### 03. Create App Layout, Build Header
 
 https://react.semantic-ui.com/
 
@@ -42,7 +42,7 @@ https://react.semantic-ui.com/
 
 <br/>
 
-### 4. Get Route Data from useRouter Hook, Create Active Links
+### 04. Get Route Data from useRouter Hook, Create Active Links
 
 <br/>
 
@@ -50,15 +50,15 @@ https://react.semantic-ui.com/
 
 <br/>
 
-### 5. Visualize Route Changes with Progress Bar
+### 05. Visualize Route Changes with Progress Bar
 
 <br/>
 
-## 3. Creating API with Node + Express
+## 03. Creating API with Node + Express
 
 <br/>
 
-### 1. Intro to Node + Express with API Routes
+### 01. Intro to Node + Express with API Routes
 
 <br/>
 
@@ -66,19 +66,19 @@ https://react.semantic-ui.com/
 
 <br/>
 
-### 2. Fetching Data on the Server with getInitialProps
+### 02. Fetching Data on the Server with getInitialProps
 
 <br/>
 
-## 4. Using MongoDB with Atlas
+## 04. Using MongoDB with Atlas
 
 <br/>
 
-### 1. Configure Mongo Atlas, Connect to Database
+### 01. Configure Mongo Atlas, Connect to Database
 
 <br/>
 
-### 2. Create Products Collection, Model Product Data
+### 02. Create Products Collection, Model Product Data
 
 cloud.mongodb.com --> Clusters --> "YOUR_CLUSTER_NAME" --> Command Line Tools --> Data Import and Export Tools
 
@@ -109,7 +109,7 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
-### 3. Build Product Cards, Make Components Responsive
+### 03. Build Product Cards, Make Components Responsive
 
 <br/>
 
@@ -117,11 +117,11 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
-## 5. Fetching App Data from API
+## 05. Fetching App Data from API
 
 <br/>
 
-### 1. Get Product By Id
+### 01. Get Product By Id
 
 <br/>
 
@@ -129,7 +129,7 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
-### 2. Style Product Detail Page
+### 02. Style Product Detail Page
 
 <br/>
 
@@ -137,15 +137,15 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
-### 3. Base Url Helper
+### 03. Base Url Helper
 
 <br/>
 
-## 6. Adding CRUD Functionality, Uploading Image Files
+## 06. Adding CRUD Functionality, Uploading Image Files
 
 <br/>
 
-### 1. Delete Product
+### 01. Delete Product
 
 <br/>
 
@@ -153,7 +153,7 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
-### 2. Create Product Form
+### 02. Create Product Form
 
 <br/>
 
@@ -161,7 +161,7 @@ https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
 
 <br/>
 
-### 3. Upload Product Image, Post Product
+### 03. Upload Product Image, Post Product
 
 https://cloudinary.com/
 
@@ -183,11 +183,11 @@ Bed has been added!
 
 <br/>
 
-## 7. Handling Errors on the Client + Server
+## 07. Handling Errors on the Client + Server
 
 <br/>
 
-### 1. Prevent, Catch Errors on Client, Server
+### 01. Prevent, Catch Errors on Client, Server
 
 <br/>
 
@@ -195,7 +195,7 @@ Bed has been added!
 
 <br/>
 
-### 2. Structure Cart Page
+### 02. Structure Cart Page
 
 <br/>
 
@@ -264,6 +264,14 @@ Bed has been added!
 <br/>
 
 ### 04. Universal Logout using LocalStorage
+
+<br/>
+
+## 10. Cart Management and Checkout
+
+<br/>
+
+### 01. Fetch User Cart
 
 <br/>
 

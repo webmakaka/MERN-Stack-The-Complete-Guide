@@ -18,7 +18,6 @@ export default async (req, res) => {
     const user = await User.findOne({ _id: userId });
 
     if (user) {
-      console.log('HI4');
       return res.status(200).json(user);
     } else {
       return res.status(404).send('User not found');
