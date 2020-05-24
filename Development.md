@@ -303,6 +303,37 @@ Bed has been added!
 
 <br/>
 
+### 05. Checkout Customer Carts
+
+```
+card: 4242 4242 4242 4242
+04/24 4242
+```
+
+<br/>
+
+stripe.com/
+
+copy "Publishable key" to CartSummary.js
+
+and
+
+"Secret key" to netc.config.js
+
+<br/>
+
+![Application](./img/pic-08-10.png?raw=true)
+
+<br/>
+
+![Application](./img/pic-08-11.png?raw=true)
+
+<br/>
+
+![Application](./img/pic-08-12.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
