@@ -295,6 +295,14 @@ Bed has been added!
 
 <br/>
 
+### 04. Removing Cart Products
+
+<br/>
+
+![Application](./img/pic-08-09.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
