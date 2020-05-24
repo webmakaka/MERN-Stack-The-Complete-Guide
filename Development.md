@@ -287,6 +287,14 @@ Bed has been added!
 
 <br/>
 
+### 03. Style Cart Products. Calculate Total
+
+<br/>
+
+![Application](./img/pic-08-08.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

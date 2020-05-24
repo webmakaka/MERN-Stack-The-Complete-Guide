@@ -5,12 +5,11 @@ import CartItemList from '../components/Cart/CartItemList';
 import CartSummary from '../components/Cart/CartSummary';
 import baseUrl from '../utils/baseUrl';
 
-function Cart({ products }) {
-  console.log(products);
+function Cart({ user, products }) {
   return (
     <Segment>
-      <CartItemList />
-      <CartSummary />
+      <CartItemList user={user} products={products} />
+      <CartSummary products={products} />
     </Segment>
   );
 }
