@@ -3,12 +3,14 @@ import { parseCookies } from 'nookies';
 import baseUrl from '../utils/baseUrl';
 import AccountHeader from '../components/Account/AccountHeader';
 import AccountOrders from '../components/Account/AccountOrders';
+import AccountPermissions from '../components/Account/AccountPermissions';
 
 function Account({ user, orders }) {
   return (
     <>
       <AccountHeader {...user} />
       <AccountOrders orders={orders} />
+      {user.role === 'root' && <AccountPermissions />}
     </>
   );
 }

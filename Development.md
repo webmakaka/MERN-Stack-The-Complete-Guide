@@ -352,6 +352,16 @@ and
 
 ![Application](./img/pic-11-02.png?raw=true)
 
+<br/>
+
+### 03. Create Root User, Add User Permissions
+
+Set manually rote "root" for user in www.mongodb.com.
+
+<br/>
+
+![Application](./img/pic-11-03.png?raw=true)
+
 ---
 
 <br/>
