@@ -370,6 +370,14 @@ Set manually rote "root" for user in www.mongodb.com.
 
 ![Application](./img/pic-11-04.png?raw=true)
 
+<br/>
+
+## 12. Polishing our App
+
+<br/>
+
+### 01. Sorting in Mongoose, MongoDB
+
 ---
 
 <br/>
