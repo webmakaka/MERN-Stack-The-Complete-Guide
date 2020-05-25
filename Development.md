@@ -344,6 +344,14 @@ and
 
 ![Application](./img/pic-11-01.png?raw=true)
 
+<br/>
+
+### 02. Create Account Header, Order History
+
+<br/>
+
+![Application](./img/pic-11-02.png?raw=true)
+
 ---
 
 <br/>
