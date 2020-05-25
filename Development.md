@@ -279,11 +279,11 @@ Bed has been added!
 
 <br/>
 
-![Application](./img/pic-08-06.png?raw=true)
+![Application](./img/pic-10-01.png?raw=true)
 
 <br/>
 
-![Application](./img/pic-08-07.png?raw=true)
+![Application](./img/pic-10-02.png?raw=true)
 
 <br/>
 
@@ -291,7 +291,7 @@ Bed has been added!
 
 <br/>
 
-![Application](./img/pic-08-08.png?raw=true)
+![Application](./img/pic-10-03.png?raw=true)
 
 <br/>
 
@@ -299,7 +299,7 @@ Bed has been added!
 
 <br/>
 
-![Application](./img/pic-08-09.png?raw=true)
+![Application](./img/pic-10-04.png?raw=true)
 
 <br/>
 
@@ -322,17 +322,27 @@ and
 
 <br/>
 
-![Application](./img/pic-08-10.png?raw=true)
+![Application](./img/pic-10-05.png?raw=true)
 
 <br/>
 
-![Application](./img/pic-08-11.png?raw=true)
+![Application](./img/pic-10-06.png?raw=true)
 
 <br/>
 
-![Application](./img/pic-08-12.png?raw=true)
+![Application](./img/pic-10-07.png?raw=true)
 
 <br/>
+
+## 11. Pagination + Managing User Roles
+
+<br/>
+
+### 01. Add Pagination for Product List
+
+<br/>
+
+![Application](./img/pic-11-01.png?raw=true)
 
 ---
 

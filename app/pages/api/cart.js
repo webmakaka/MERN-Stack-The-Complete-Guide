@@ -25,7 +25,6 @@ export default async (req, res) => {
 
 async function handleGetRequest(req, res) {
   if (!('authorization' in req.headers)) {
-    console.log('HI1');
     return res.status(401).send('No authorization token');
   }
 
