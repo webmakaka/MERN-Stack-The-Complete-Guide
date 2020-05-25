@@ -362,6 +362,14 @@ Set manually rote "root" for user in www.mongodb.com.
 
 ![Application](./img/pic-11-03.png?raw=true)
 
+<br/>
+
+### 04. Change User Roles, Permissions
+
+<br/>
+
+![Application](./img/pic-11-04.png?raw=true)
+
 ---
 
 <br/>
