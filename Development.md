@@ -390,6 +390,21 @@ Set manually rote "root" for user in www.mongodb.com.
 
 ### 03. Cascade Delete upon Document Removal
 
+<br/>
+
+## 13. Live Deployment
+
+<br/>
+
+### 01. Deployment + Aliasing with Now (Not Interesting, skipped)
+
+https://vercel.com/
+
+    $ sudo npm i -g now
+    $ now login
+    $ now --public
+    $ now alias <some-generated-url.now.sh> <some-url-from-baseUrl.now.sh>
+
 ---
 
 <br/>

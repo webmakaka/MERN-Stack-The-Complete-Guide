@@ -16,8 +16,6 @@ export default async (req, res) => {
       process.env.JWT_SECRET
     );
 
-    console.log(userId);
-
     const cart = await Cart.findOne({ user: userId }).populate({
       path: 'products.product',
       model: 'Product',
