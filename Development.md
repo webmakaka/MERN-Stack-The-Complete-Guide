@@ -386,6 +386,10 @@ Set manually rote "root" for user in www.mongodb.com.
 
 ![Application](./img/pic-11-05.png?raw=true)
 
+<br/>
+
+### 03. Cascade Delete upon Document Removal
+
 ---
 
 <br/>
