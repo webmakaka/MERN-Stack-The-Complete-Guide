@@ -378,6 +378,14 @@ Set manually rote "root" for user in www.mongodb.com.
 
 ### 01. Sorting in Mongoose, MongoDB
 
+<br/>
+
+### 02. Formatting Dates
+
+<br/>
+
+![Application](./img/pic-11-05.png?raw=true)
+
 ---
 
 <br/>
