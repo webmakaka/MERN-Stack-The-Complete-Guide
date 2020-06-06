@@ -4,7 +4,7 @@
 
 <br/>
 
-## How to run the final app2
+## How to run the final app
 
 I am working in ubuntu linux 18.04.
 
@@ -128,7 +128,9 @@ https://mern-stack-app.dev/api/products
 
 **From containers should works**:
 
-    $ curl --header "Host: mern-stack-app.dev" http://172-17-0-2.kubernetes.default.svc.cluster.local/api/products
+    $ curl \
+    --header "Host: mern-stack-app.dev" \
+    --request GET http://172-17-0-2.kubernetes.default.svc.cluster.local/api/products
 
 <br/>
 
