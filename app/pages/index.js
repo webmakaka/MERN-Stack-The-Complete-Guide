@@ -18,6 +18,7 @@ Home.getInitialProps = async (ctx) => {
   const size = 9;
   const url = `${baseUrl}/api/products`;
   const payload = { params: { page, size } };
+  axios.defaults.headers.common['Host'] = 'mern-stack-app.dev';
   const response = await axios.get(url, payload);
   return response.data;
 };

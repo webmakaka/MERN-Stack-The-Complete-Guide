@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-svc
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: 'true'
+spec:
+  rules:
+    - host: mern-stack-app.dev
+      http:
+        paths:
+          - path: /?(.*)
+            backend:
+              serviceName: mern-stack-app-svc
+              servicePort: 3000
