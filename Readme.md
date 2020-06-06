@@ -88,14 +88,12 @@ Need update webmakaka/mern-stack-the-complite-guide on your data in the scripts
 <br/>
 
     # cd ~
-    # apt update -y
-    # apt install -y git
+    # apt update -y && apt install -y git
     # git clone https://github.com/webmakaka/MERN-Stack-The-Complete-Guide
-    # cd MERN-Stack-The-Complete-Guide/app/static/
 
 <br/>
 
-    $ mongoimport --db mongo-db --collection products --type json --file ./products.json --jsonArray
+    $ mongoimport --db mongo-db --collection products --type json --file ./MERN-Stack-The-Complete-Guide/app/static/products.json --jsonArray
 
 <br/>
 
@@ -106,7 +104,7 @@ Need update webmakaka/mern-stack-the-complite-guide on your data in the scripts
 
 <br/>
 
-chrome browser --> https://mern-stack-app.dev/login
+chrome browser --> https://mern-stack-app.dev/
 
 <br/>
 
