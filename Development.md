@@ -1,7 +1,6 @@
 # [Reed Barger] MERN Stack - The Complete Guide [ENG, 2020]
 
 <br/>
-<br/>
 
 ## 02. Working with React + Next.js
 
