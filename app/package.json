@@ -16,7 +16,7 @@
     "bcrypt": "^4.0.1",
     "js-cookie": "^2.2.0",
     "jsonwebtoken": "^8.5.1",
-    "next": "^9.4.4",
+    "next": "^11.1.0",
     "mongoose": "^5.9.18",
     "nookies": "^2.3.1",
     "nprogress": "^0.2.0",
